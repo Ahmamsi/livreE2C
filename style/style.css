@@ -1,0 +1,48 @@
+body{
+   
+    background-color: rgba(226, 43, 43, 0.253);
+    font-size: large; 
+    box-sizing: border-box;
+    margin: 47px;
+}
+* {
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    flex-wrap: column;
+    justify-content: space-between;
+    background-color: rgba(122, 42, 165, 0.461);
+    align-items: stretch;
+    padding: 15px;
+    height: 20vh;
+
+}
+h1 {
+    width: fit-content;
+    color: rgb(30, 23, 130);
+    text-align: center;
+ 
+}
+#logo {
+    
+    height: 100%;
+}
+#Titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: right 10%;;
+}
+    #image {
+        height: 110%;;
+        background-image: url('../Asset/library.png');
+    }
